@@ -117,7 +117,7 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="flex items-center space-x-4 md:hidden">
+          <div className="flex items-center space-x-4 md:hidden pr-10">
             <button
               onClick={toggleTheme}
               className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-300"
